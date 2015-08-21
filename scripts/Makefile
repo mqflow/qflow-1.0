@@ -11,8 +11,8 @@ INSTALL = /bin/install -c
 
 VERSION = 1.0
 
-QFLOW_LIB_DIR = /usr/local/share/qflow
-QFLOW_BIN_DIR = /usr/local/bin
+QFLOW_LIB_DIR = /home/tim/cad/lib/qflow
+QFLOW_BIN_DIR = /home/tim/cad/bin
 
 DEFAULTPARSER = @QFLOW_DEFAULT_PARSER@
 

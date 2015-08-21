@@ -9,7 +9,7 @@ LIBS =
 LDFLAGS = 
 INSTALL = /bin/install -c
 
-QFLOW_LIB_DIR = /usr/local/share/qflow
+QFLOW_LIB_DIR = /home/tim/cad/lib/qflow
 QFLOW_GRAYWOLF_PATH = /usr/local/bin/graywolf
 QFLOW_QROUTER_PATH = /usr/local/bin/qrouter
 QFLOW_ABC_PATH = 

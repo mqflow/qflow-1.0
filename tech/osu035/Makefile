@@ -9,7 +9,7 @@ LIBS =
 LDFLAGS = 
 INSTALL = /bin/install -c
 
-QFLOW_LIB_DIR = /usr/local/share/qflow
+QFLOW_LIB_DIR = /home/tim/cad/lib/qflow
 
 TECH_FILES = osu035.genlib osu035.super osu035.par osu035_stdcells.lef
 TECH_FILES += osu035.sh osu035_stdcells.sp osu035.magicrc osu035.prm
