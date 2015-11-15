@@ -517,7 +517,7 @@ while {[gets $fpl1 line] >= 0} {
       while {![catch {eval [subst {set posused(${llx},${lly})}]}]} {
          puts -nonewline stdout "Caught GrayWolf being bad:  "
          puts stdout "Pin $labname overlaps pin $posused(${llx},${lly})"
-         if {$row == -1 || $row == -2} {
+         if {$row == -3 || $row == -4} {
             set llx [expr $llx + $pitchx]
          } else {
             set lly [expr $lly + $pitchy]
